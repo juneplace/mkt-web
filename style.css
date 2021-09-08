@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+
+body {
+    margin: 0;
+}
+.main-img {
+    background-image: url(images/main.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 668px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center ;
+}
+.nav {
+    position: absolute;   
+    width: 100%;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center ;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 23px;
+}
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+    letter-spacing: 7px;
+    font-weight: lighter;
+}
+
+.main-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 100;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+h1 {
+    letter-spacing: 50px;
+    margin: 0;
+    font-weight: lighter;
+
+}
+h2 {
+    margin: 0;
+    margin-top: 50px;
+    font-weight: lighter;
+    letter-spacing: 20px;
+}
+h3 {
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 23px;
+    color: #333;
+    letter-spacing: 10px;
+    text-align: center;
+    font-weight: 100;
+
+}
+.about, .services, .contact {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service-all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom: 70px;
+}
+.about p {
+    font-family: 'Exo', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+hr {
+    width: 70%;
+    margin-top: 70px;
+}
+.service-desc {
+    width: 20%;
+    height: 20%;
+    margin: 20px;
+    border: #333 1px solid;
+
+}
+.service-desc img {
+    width: 100%;
+    
+}
+.service-desc p {
+    font-family: 'Exo', sans-serif;
+    font-weight: 100;
+    font-size: 20px;    text-align: center;
+}
+button {
+    border: transparent;
+}
+.see-more {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 23px;
+    background: transparent;
+    border-bottom: #333 1px solid;
+}
+.see-more a {
+    text-decoration: none;
+    color: #333;
+}
+footer {
+    color: white;
+}
+.footer {
+    padding: 20px;
+    background: #333;
+    font-family:'Times New Roman', Times, serif;
+    bottom: 0;
+}
+.footer p {
+    font-weight: 100;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 100;
+    font-variant: small-caps;
+
+}
+h4 {
+    text-align: center;
+    color: #333;
+    font-size: 23px;
+}
+
+.contact p {
+    font-family: 'Exo', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main {
+    padding: 40px;
+    padding-top: 70px;
+}
+li {
+    list-style: none;
+}
+.serv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 70px;
+    border-bottom: #333 solid 1px;
+}
+.serv h3 {
+    margin-top: 16px;
+    text-align: left;
+}
+.serv ul {
+    text-align: right;
+    font-family: 'Exo', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+.ab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 70px;
+}
+.ab h3 {
+    margin-top: 16px;
+    text-align: left;
+}
+.ab p {
+    text-align: left;
+    font-family: 'Exo', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    width: 60%;
+}
+.cont {
+    margin: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contacting {
+    width: 100%;
+}
+.contacting p {
+    border-bottom: #333 1px solid;
+    padding-top: 30px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+.contact-title {
+    letter-spacing: normal;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 100;
+    font-variant: small-caps;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-top: 30px;
+
+}
+.image {
+    background-image: url(images/lute-eVhPa9VU1Xw-unsplash.jpg);
+    width: 100%;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+
+}
