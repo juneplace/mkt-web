@@ -212,20 +212,22 @@ li {
     width: 60%;
 }
 .cont {
-    margin: 70px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .contacting {
-    width: 100%;
+    width: 50%;
 }
 .contacting p {
-    border-bottom: #333 1px solid;
+    border-bottom: white 1px solid;
     padding-top: 30px;
     font-family: 'Exo', sans-serif;
     font-weight: 100;
     font-size: 20px;
+    color: white
 }
 .contact-title {
     letter-spacing: normal;
@@ -239,13 +241,18 @@ li {
     margin-top: 30px;
 
 }
-.image {
-    background-image: url(images/lute-eVhPa9VU1Xw-unsplash.jpg);
-    width: 100%;
-    margin-right: 20px;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-
-
+.submit-btn {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 23px;
+    background: transparent;
+    border-bottom: white 1px solid;
+}
+.submit-btn a {
+    text-decoration: none;
+    color: white;
 }
